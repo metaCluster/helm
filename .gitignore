@@ -1,0 +1,16 @@
+# editors
+.idea/
+*.iml
+*.swp
+.vscode/*
+
+# Dependencies
+vendor/
+.gobincache/
+protoc-*/
+
+# mac
+.DS_Store
+
+
+
