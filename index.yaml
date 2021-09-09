@@ -3,7 +3,7 @@ entries:
   cortex:
   - apiVersion: v2
     appVersion: v1.9.0
-    created: "2021-09-05T13:04:39.862495087Z"
+    created: "2021-09-09T08:24:10.920068118Z"
     dependencies:
     - alias: memcached
       condition: memcached.enabled
@@ -45,7 +45,7 @@ entries:
       version: 5.13.0
     description: Horizontally scalable, highly available, multi-tenant, long term
       Prometheus.
-    digest: eba1a42be44be27a3a6dd12e053eedcccf87765e62d29793e7700b1f2bfd88d9
+    digest: 3478277bb6cfd1ad10bdacb91bb1a3bd5570eedc41c98d4c044222cab4f6b76b
     home: https://cortexmetrics.io/
     icon: https://avatars2.githubusercontent.com/u/43045022?s=200&v=4
     kubeVersion: ^1.19.0-0
@@ -60,9 +60,9 @@ entries:
     version: 0.6.0
   istio-operator:
   - apiVersion: v1
-    created: "2021-09-05T13:04:39.862947692Z"
+    created: "2021-09-09T08:24:10.920477323Z"
     description: Helm chart for deploying Istio operator
-    digest: 96af41c8044700fc8cee45cc73e34045e15a93a177887fc34056026b9d6f06c2
+    digest: dbf3ec1badbf4eefcce2968a1f26009ad6c6b07e01e7fd5b4f1640bf529d5242
     icon: https://istio.io/latest/favicons/android-192x192.png
     keywords:
     - istio
@@ -73,4 +73,4 @@ entries:
     urls:
     - https://metaCluster.github.io/helm/istio-operator-1.11.2.tgz
     version: 1.11.2
-generated: "2021-09-05T13:04:39.85087745Z"
+generated: "2021-09-09T08:24:10.910148495Z"
